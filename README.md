@@ -17,29 +17,29 @@ Each folder consists of 4 files :
 ## Challenges status
 
 ### Legend :
-* not solved
-* [*solved*](fd)
-* [**solved with writeup**](fd) ([writeup](fd/writeup.md))
+* unsolved
+* [solved](fd)
+* [solved with writeup](fd) ([writeup](fd/writeup.md))
 
 ### Toddler's Bottle
-* [**fd**](fd) ([writeup](fd/writeup.md))
-* [*collision*](collision)
-* [*bof*](bof)
-* [*flag*](flag)
-* [*passcode*](passcode)
-* [*random*](random)
+* [fd](fd) ([writeup](fd/writeup.md))
+* [collision](collision)
+* [bof](bof)
+* [flag](flag)
+* [passcode](passcode)
+* [random](random)
 * input
-* [*leg*](leg)
-* [*mistake*](mistake)
-* [*shellshock*](shellshock)
-* [*coin1*](coin1)
-* [*blackjack*](blackjack)
-* [*lotto*](lotto)
-* [*cmd1*](cmd1)
-* [*cmd2*](cmd2)
+* [leg](leg)
+* [mistake](mistake)
+* [shellshock](shellshock)
+* [coin1](coin1)
+* [blackjack](blackjack)
+* [lotto](lotto)
+* [cmd1](cmd1)
+* [cmd2](cmd2)
 * uaf
-* [*memcpy*](memcpy)
-* [*asm*](asm)
+* [memcpy](memcpy)
+* [asm](asm)
 * unlink
 * blukat
 * horcruxes
