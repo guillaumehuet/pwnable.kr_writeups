@@ -41,6 +41,10 @@ d---------  2 root   root 4096 Jun 12  2014 .bash_history
 -rw-------  1 root   root  128 Oct 26  2016 .gdb_history
 dr-xr-xr-x  2 root   root 4096 Dec 19  2016 .irssi
 drwxr-xr-x  2 root   root 4096 Oct 23  2016 .pwntools-cache
+fd@ubuntu:~$ id                                                                                                                                     
+uid=1004(fd) gid=1004(fd) groups=1004(fd)                                                                                                           
+fd@ubuntu:~$ file fd
+fd: setuid ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), dynamically linked, interpreter /lib/ld-, for GNU/Linux 2.6.24, BuildID[sha1]=c5ecc1690866b3bb085d59e87aad26a1e386aaeb, not stripped
 fd@ubuntu:~$ cat fd.c
 #include <stdio.h>
 #include <stdlib.h>
@@ -67,13 +71,13 @@ int main(int argc, char* argv[], char* envp[]){
 fd@ubuntu:~$
 ```
 ## Exploitation objective
-* The ssh user is fd
-* The flag file is readable only by the group fd_pwn or the user root
-* The fd binary is executable by the fd user and is suid to its group fd_pwn
+* The ssh user is ```fd```, group ```fd```
+* The ```flag``` file is readable only by the user ```fd_pwn``` or the group ```root```
+* The ```fd``` binary is a 32bit ELF executable by the ```fd_pwn``` user or members of the ```fd``` group and is ```suid``` meaning that it executes with the rights of its user even if called by a member of its group
 
-This means that if we pwn the fd executable we can gain read access to the flag file via group fd_pwn.
+This means that if we pwn the ```fd``` executable we can gain read access to the ```flag``` file via suid user ```fd_pwn```.
 
-The pwn executable is certainly compiled from the fd.c source code, let's have a look.
+The ```pwn``` executable is certainly compiled from the ```fd.c``` source code, let's have a look.
 
 ## C code analysis
 ```c
