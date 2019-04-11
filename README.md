@@ -23,7 +23,7 @@ Each folder consists of 4 files :
 
 ### Toddler's Bottle
 * [fd](fd) ([writeup](fd/writeup.md))
-* [collision](collision)
+* [collision](collision) ([writeup](collision/writeup.md))
 * [bof](bof)
 * [flag](flag)
 * [passcode](passcode)
