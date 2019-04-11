@@ -24,7 +24,7 @@ Each folder consists of 4 files :
 ### Toddler's Bottle
 * [fd](fd) ([writeup](fd/writeup.md))
 * [collision](collision) ([writeup](collision/writeup.md))
-* [bof](bof)
+* [bof](bof) ([writeup](bof/writeup.md))
 * [flag](flag)
 * [passcode](passcode)
 * [random](random)
