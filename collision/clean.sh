@@ -1,2 +1,2 @@
 #!/bin/sh
-rm -f col col.c flag
+rm -rf col col.c flag

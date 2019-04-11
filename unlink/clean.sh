@@ -1,2 +1,2 @@
 #!/bin/sh
-rm -f unlink unlink.c flag bash
+rm -rf unlink unlink.c flag bash

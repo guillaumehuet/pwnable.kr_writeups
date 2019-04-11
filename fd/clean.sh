@@ -1,2 +1,2 @@
 #!/bin/sh
-rm -f fd fd.c flag
+rm -rf fd fd.c flag

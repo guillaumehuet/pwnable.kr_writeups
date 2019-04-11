@@ -1,2 +1,2 @@
 #!/bin/sh
-rm -f lotto lotto.c flag
+rm -rf lotto lotto.c flag

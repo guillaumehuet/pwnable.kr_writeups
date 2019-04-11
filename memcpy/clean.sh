@@ -1,2 +1,2 @@
 #!/bin/sh
-rm memcpy.c
+rm -rf memcpy.c memcpy

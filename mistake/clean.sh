@@ -1,2 +1,2 @@
 #!/bin/sh
-rm -f mistake mistake.c flag
+rm -rf mistake mistake.c flag

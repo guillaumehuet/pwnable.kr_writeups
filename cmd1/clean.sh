@@ -1,2 +1,2 @@
 #!/bin/sh
-rm -f cmd1 cmd1.c flag
+rm -rf cmd1 cmd1.c flag

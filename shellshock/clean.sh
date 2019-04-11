@@ -1,2 +1,2 @@
 #!/bin/sh
-rm -f shellshock shellshock.c flag bash
+rm -rf shellshock shellshock.c flag bash

@@ -1,2 +1,2 @@
 #!/bin/sh
-rm leg.c leg.asm
+rm -rf leg.c leg.asm
