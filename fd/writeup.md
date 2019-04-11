@@ -77,7 +77,7 @@ fd@ubuntu:~$
 
 This means that if we pwn the ```fd``` executable we can gain read access to the ```flag``` file via suid user ```fd_pwn```.
 
-The ```pwn``` executable is certainly compiled from the ```fd.c``` source code, let's have a look.
+The ```fd``` executable is certainly compiled from the ```fd.c``` source code, let's have a look.
 
 ## C code analysis
 ```c
