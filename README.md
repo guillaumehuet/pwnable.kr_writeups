@@ -26,7 +26,7 @@ Each folder consists of 4 files :
 * [collision](collision) ([writeup](collision/writeup.md))
 * [bof](bof) ([writeup](bof/writeup.md))
 * [flag](flag) ([writeup](flag/writeup.md))
-* [passcode](passcode)
+* [passcode](passcode) ([writeup](passcode/writeup.md))
 * [random](random)
 * input
 * [leg](leg)
